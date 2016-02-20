@@ -220,7 +220,7 @@ func parseKey(key : String) -> (Key, Plurality) {
 func verifyItems(items : [Item]) {
     var foundError = false
     guard let content = try? NSString(contentsOfFile: source, encoding: NSUTF8StringEncoding) else {
-        print("error: Could not open file \(source).", toStream: &errorStream)
+        print("error: Could not open file \(source)", toStream: &errorStream)
         exit(1)
     }
     for item in items {
@@ -232,11 +232,14 @@ func verifyItems(items : [Item]) {
         }
         // This is super hacky. Just look for the original key and make sure there's a comment close marker a little bit before it.
         let commentClose = content.rangeOfString("*/", options:NSStringCompareOptions(), range:NSRange(location: max(range.location, 20) - 20, length:20))
+
         if commentClose.location == NSNotFound {
             print("error: Missing comment for string \(item.key.original). This information is needed by translators.")
             foundError = true
         }
+
     }
+
     if foundError {
         exit(1)
     }

@@ -141,7 +141,7 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
 // This method will set default ui.
 
 - (void)initializeViews {
-    NSString* regularFont = @"OpenSans";
+// EGOR    NSString* regularFont = @"OpenSans";
     NSString* semiboldFont = @"OpenSans-Semibold";
 
     self.navigationController.navigationBarHidden = YES;
@@ -165,6 +165,7 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
     self.progressIndicator = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     [self.registerButton addSubview:self.progressIndicator];
     [self.progressIndicator hidesWhenStopped];
+/* EGOR
     self.optionalFieldsSeparator = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"separator3"]];
     //Initialize label above agreement view
     self.agreementLabel = [[UILabel alloc] init];
@@ -187,7 +188,7 @@ NSString* const OEXExternalRegistrationWithExistingAccountNotification = @"OEXEx
     [self.toggleOptionalFieldsButton.titleLabel setFont:[UIFont fontWithName:semiboldFont size:14.0]];
 
     [self.toggleOptionalFieldsButton addTarget:self action:@selector(toggleOptionalFields:) forControlEvents:UIControlEventTouchUpInside];
-
+*/
     UITapGestureRecognizer* tapGesture = [[UITapGestureRecognizer alloc] init];
     [tapGesture addTarget:self action:@selector(scrollViewTapped:)];
     [self.scrollView addGestureRecognizer:tapGesture];

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-               BuildableName = "edX.app"
+               BuildableName = "&#x421;&#x414;&#x41e; &#x41a;&#x443;&#x431;&#x430;&#x43d;&#x438;.app"
                BlueprintName = "edX"
                ReferencedContainer = "container:edX.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "&#x421;&#x414;&#x41e; &#x41a;&#x443;&#x431;&#x430;&#x43d;&#x438;.app"
             BlueprintName = "edX"
             ReferencedContainer = "container:edX.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "&#x421;&#x414;&#x41e; &#x41a;&#x443;&#x431;&#x430;&#x43d;&#x438;.app"
             BlueprintName = "edX"
             ReferencedContainer = "container:edX.xcodeproj">
          </BuildableReference>
@@ -100,7 +100,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "edX.app"
+            BuildableName = "&#x421;&#x414;&#x41e; &#x41a;&#x443;&#x431;&#x430;&#x43d;&#x438;.app"
             BlueprintName = "edX"
             ReferencedContainer = "container:edX.xcodeproj">
          </BuildableReference>
