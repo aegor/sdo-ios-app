@@ -215,6 +215,7 @@
 		775EB3AE1B1FF1AD009526A8 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775EB3AD1B1FF1AD009526A8 /* ButtonStyle.swift */; };
 		7764597F1A096339008404CC /* NSString+OEXEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7764597E1A096339008404CC /* NSString+OEXEncoding.m */; };
 		776459821A09650C008404CC /* NSDictionary+OEXEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 776459811A09650C008404CC /* NSDictionary+OEXEncoding.m */; };
+		7765025B1C73B90C007384E7 /* OEXRearTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765025A1C73B90C007384E7 /* OEXRearTableViewControllerTests.swift */; };
 		77691F911B388626003922F2 /* UIGestureRecognizer+BlockActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77691F901B388626003922F2 /* UIGestureRecognizer+BlockActions.swift */; };
 		77691F981B38A09B003922F2 /* NSAttributedString+Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77691F971B38A09B003922F2 /* NSAttributedString+Combination.swift */; };
 		77691F9C1B3A0774003922F2 /* Result+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77691F9B1B3A0774003922F2 /* Result+JSON.swift */; };
@@ -2694,7 +2695,7 @@
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "Sdo Kuban";
+				ORGANIZATIONNAME = SdoKuban;
 				TargetAttributes = {
 					BECB7B0A1924C0C3009C77F1 = {
 						DevelopmentTeam = 29WLC4T52F;
@@ -3279,6 +3280,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
+=======
+		BECB7B281924C0C3009C77F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7772BE821AF822500081CA7A /* UIBarButtonItem+OEXBlockActionsTests.m in Sources */,
+				775981FD1C30975A00CDBC4A /* MockEnrollmentManager.swift in Sources */,
+				9CA725F41A8E1B56009244A6 /* OEXFindCoursesTests.m in Sources */,
+				1A373E8F1C457DBB00E3AAAA /* MockRouter.swift in Sources */,
+				77EC88A01AB878880050F9CF /* NSString+OEXFormattingTests.m in Sources */,
+				77236EEF1C21C3D5006AC1A4 /* PaginatorTests.swift in Sources */,
+				77AFD11D1C1B7721001985FD /* NSObject+SafeKVOTests.swift in Sources */,
+				778B40DB1C2F64680009F33E /* EnrollmentManagerTests.swift in Sources */,
+				B4B285EA1A9B182900DD603A /* OEXConfigTests.m in Sources */,
+				77864DD71B1002A800182FC2 /* MockNetworkManager.swift in Sources */,
+				778CC8271BBEDD9700DCCAE4 /* MockAnalyticsTracker.swift in Sources */,
+				778F177E1C0E049B0099BF93 /* CourseCatalogViewControllerTests.swift in Sources */,
+				77E00B731B83997E00573622 /* DiscussionNewCommentViewControllerTests.swift in Sources */,
+				77AB8C851B345F6400AB3FC0 /* NSString+OEXCryptoTests.swift in Sources */,
+				8F7F6DAD1A795AA60063B9D6 /* OEXSessionTests.m in Sources */,
+				77A340211AB2461800C8E141 /* OEXRegistrationViewControllerTests.m in Sources */,
+				775434911AD8594A00635A40 /* OEXParsePushProviderTests.m in Sources */,
+				77AB8C871B34DAF900AB3FC0 /* MockResponseCache.swift in Sources */,
+				7754348F1AD83FC100635A40 /* OEXMockCredentialStorage.m in Sources */,
+				77567B741AC9F8ED00877A7B /* NSObject+OEXDeallocActionTests.m in Sources */,
+				77BECB0A1B0A8AD800894276 /* UIEdgeInsets+GeometryTests.swift in Sources */,
+				778B40DE1C2F85C50009F33E /* FeedTests.swift in Sources */,
+				77CBF55A1BFBE89300B4F121 /* CourseAnnouncementsViewControllerTests.swift in Sources */,
+				775DF4151AFAA36100F96B2F /* CourseContentPageViewControllerTests.swift in Sources */,
+				77BC3E6B1AE1615700E51529 /* OEXPushNotificationProcessorTests.m in Sources */,
+				777DE7181C1649630068E280 /* CourseCatalogDetailViewControllerTests.swift in Sources */,
+				77503E981B2F53C300C47229 /* StreamTests.swift in Sources */,
+				778F17711C0CFD310099BF93 /* OEXRouterTests.swift in Sources */,
+				773B1D491B1F818300B861DF /* XCTestCase+Async.swift in Sources */,
+				775434971AD8635200635A40 /* OEXUserDetails+OEXTestDataFactory.m in Sources */,
+				7765025B1C73B90C007384E7 /* OEXRearTableViewControllerTests.swift in Sources */,
+				771FA0161B4588D80067F22D /* CourseDataManagerTests.swift in Sources */,
+				773CC01F1BE29D5100DDC127 /* UserProfileManagerTests.swift in Sources */,
+				773CC0231BE2C4C200DDC127 /* MockUserProfileManager.swift in Sources */,
+				773CC0251BE42EAC00DDC127 /* UserProfileEditViewControllerTests.swift in Sources */,
+				770A27AA1A70261F00DFC6FF /* NSObject+OEXReplaceNullTests.m in Sources */,
+				77864DD51B0FF12800182FC2 /* NetworkManagerTests.swift in Sources */,
+				77000A471A77555B007D306C /* OEXDateFormattingTests.m in Sources */,
+				770A279F1A6F164800DFC6FF /* OEXVideoPathEntryTests.m in Sources */,
+				77691FAB1B3C74AF003922F2 /* OpenOnWebControllerTests.swift in Sources */,
+				77D705FC1B7C0DEC00ABCB70 /* OEXCourseTests.swift in Sources */,
+				77567B551AC5F06F00877A7B /* OEXSafeCastTests.m in Sources */,
+				7742F8DB1C3C9788009E555A /* EnrollmentConfigTests.swift in Sources */,
+				770A27981A6F12B200DFC6FF /* NSArray+OEXFunctionalTests.m in Sources */,
+				77FFA2C31AC30C1500B4D69B /* NSAttributedString+OEXFormattingTests.m in Sources */,
+				77000A391A76EFF2007D306C /* NSString+OEXValidationTests.m in Sources */,
+				7778F0931ABA1F8000B4CDA0 /* OEXStatusMessageViewControllerTests.m in Sources */,
+				77AB8C831B33C2A300AB3FC0 /* PersistentResponseCacheTests.swift in Sources */,
+				194E01931A54204B00A0CFAE /* OEXFormEncodingTests.m in Sources */,
+				774B9C111B0B9CD0000B1069 /* OfflineModeControllerTests.swift in Sources */,
+				775EB3AA1B1FBF58009526A8 /* CourseOutlineHeaderViewTests.swift in Sources */,
+				773181441B7066E5000CC050 /* DiscussionNewPostViewControllerTests.swift in Sources */,
+				7731813D1B6C237F000CC050 /* DiscussionTopicTests.swift in Sources */,
+				775E5A831BE1C91B0046B26B /* LiveObjectCacheTests.swift in Sources */,
+				77BECB081B0A771700894276 /* OfflineModeViewTests.swift in Sources */,
+				779998231C3C1EE00058E5FE /* EnrolledCoursesViewControllerTests.swift in Sources */,
+				194E01941A54204B00A0CFAE /* OEXInterfaceTests.m in Sources */,
+				46CECC441B055B0F0073C63A /* CourseDashboardViewControllerTests.swift in Sources */,
+				770A27AC1A702B6500DFC6FF /* OEXDataParserTests.m in Sources */,
+				77E2097F1AF032CC0071316D /* UIControl+OEXBlockActionsTests.m in Sources */,
+				77F76A701B0BD5EC00ED3E39 /* OEXSession+AuthorizationTests.swift in Sources */,
+				7702A3731BF54D9E00D2A63F /* OEXMySettingsViewControllerTests.swift in Sources */,
+				773CC0271BEBCB0100DDC127 /* CourseCardViewModelTests.swift in Sources */,
+				773181391B6C1361000CC050 /* DiscussionTopicsViewControllerTests.swift in Sources */,
+				77691F961B389B62003922F2 /* NSNotificationCenter+SafeSwiftTests.swift in Sources */,
+				7772BE8C1AF8389F0081CA7A /* Array+FunctionalTests.swift in Sources */,
+				9E35A2841B32D7090040B9A9 /* DateFormattingTests.swift in Sources */,
+				77864DDC1B14BC4700182FC2 /* Result+Assertions.swift in Sources */,
+				1A6E86261BB9CEC90039A216 /* UserProfileViewTests.swift in Sources */,
+				7791C4ED1C651E9D0005745B /* OEXRegistrationViewControllerTests.swift in Sources */,
+				7706AAC31BCFF28B00728432 /* NSAttributedString+FormattingTests.swift in Sources */,
+				772619BA1ADDC68E005BD7E4 /* OEXMockUserDefaults.m in Sources */,
+				771273321BA9DF8F008BA397 /* OEXTextStyleTests.swift in Sources */,
+				77AE2F621ABB71840027E799 /* OEXFileUtilityTests.m in Sources */,
+				77691FAD1B3C764F003922F2 /* UIBarButtonItem+Touchable.swift in Sources */,
+				77D7FD281B04FEC8002ACA8C /* SnapshotTestCase.swift in Sources */,
+				7754348C1AD83E4600635A40 /* OEXPushNotificationManagerTests.m in Sources */,
+				778D53371B3D97CC00441A98 /* ListCursorTests.swift in Sources */,
+				77567B4C1AC5E8EC00877A7B /* OEXAnalyticsTests.m in Sources */,
+				779376551BF15A8F00900A8C /* OEXConfig+URLCredentialProviderTests.swift in Sources */,
+				7778F0951ABA2C3600B4CDA0 /* OEXRegistrationFieldEmailViewTests.m in Sources */,
+				774B9C121B0B9D18000B1069 /* MockReachability.swift in Sources */,
+				773181401B6C23F9000CC050 /* DiscussionTopic+DataFactory.swift in Sources */,
+				770A27A11A6F172300DFC6FF /* OEXVideoSummaryTests.m in Sources */,
+				77567B791ACA00F900877A7B /* NSNotificationCenter+OEXSafeAccessTests.m in Sources */,
+				9E9AA36C1B3174E300CD7D44 /* CourseLastAccessedTests.swift in Sources */,
+				77236EF11C21F3B3006AC1A4 /* TablePaginationControllerTests.swift in Sources */,
+				77D5F4431C1F83910079E228 /* PaginationInfoTests.swift in Sources */,
+				778F17831C0E06640099BF93 /* TestRouterEnvironment.swift in Sources */,
+				77FD164C1C2336EB00F059DF /* DummyTableViewDataSource.swift in Sources */,
+				77000A4C1A775904007D306C /* NSDate+OEXComparisonsTests.m in Sources */,
+				770848BF1B20D5F9002FEEEE /* TestEnvironmentBuilder.swift in Sources */,
+				778345511B45D697009C7853 /* ContentInsetsControllerTests.swift in Sources */,
+				77AFD10E1C1A75A5001985FD /* UserAgentGenerationOperation.swift in Sources */,
+				77567B4F1AC5EBFE00877A7B /* OEXMockAnalyticsTracker.m in Sources */,
+				77503E901B2882C800C47229 /* KeyboardInsetsSourceTests.swift in Sources */,
+				9E74AFE71B4A821500B2D843 /* CourseLastAccessedControllerTests.swift in Sources */,
+				77691FB21B3C824E003922F2 /* CourseOutlineQuerierTests.swift in Sources */,
+				77691FB01B3C820B003922F2 /* CourseOutlineViewControllerTests.swift in Sources */,
+				770A27A71A700E1600DFC6FF /* OEXVideoSummary+OEXTestDataFactory.m in Sources */,
+				77F76A741B0CE01E00ED3E39 /* MockCourseDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> b2b333594821a81408f01362a1b3d13adf83516c
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */

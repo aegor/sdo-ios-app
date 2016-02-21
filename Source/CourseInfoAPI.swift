@@ -17,7 +17,7 @@ public struct CourseInfoAPI {
     
     public static func getHandoutsForCourseWithID(courseID : String, overrideURL: String? = nil) -> NetworkRequest<String> {
         return NetworkRequest(
-            method: HTTPMethod.GET,
+            method: .GET,
             path : overrideURL ?? "api/mobile/v0.5/course_info/\(courseID)/handouts",
             requiresAuth : true,
             deserializer: .JSONResponse(handoutsDeserializer)

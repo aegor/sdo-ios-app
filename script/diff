@@ -1,0 +1,4 @@
+awk '$1 ~ /^"/' Localizable.strings.en | awk -F '"' '{print $2}' > /tmp/aa
+awk '$1 ~ /^"/' Localizable.strings.ru | awk -F '"' '{print $2}' > /tmp/bb
+diff /tmp/aa /tmp/bb
+rm -f /tmp/aa /tmp/bb

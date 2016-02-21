@@ -18,14 +18,12 @@
 "ACCESSIBILITY_CHECKBOX_HINT_CHECKED" = "Коснитесь, чтобы снять выделение";
 /* Label for action hint on check box when it's checked. */
 "ACCESSIBILITY_CHECKBOX_HINT_UNCHECKED" = "Коснитесь, чтобы выделить";
-/* Call to action for FIND A MOBILE-FRIENDLY COURSE */
-"ACCESSIBILITY_OPENS_MOBILE_FRIENDLY_COURSES"="Откройте подходящие курсы в браузере.";
 /* Text spoken for Navigation Button on Course List Screen */
 "ACCESSIBILITY_NAVIGATION" = "Навигация";
 /* Call to action for Course content on Home Screen */
 "ACCESSIBILITY_SHOWS_COURSE_CONTENT" = "Показать содержание курса";
 /* Acessibility label for the download progress button. {percent_complete} is an already localized numeric percentage like "44%" */
-"ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON##{one}" = "Идет загрузка: {percent_complete}";
+"ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON##{one}" = "Идет скачивание: {percent_complete}";
 /* */
 "ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON##{few}" = "Идет скачивание: {percent_complete}";
 /* */
@@ -35,13 +33,13 @@
 /* Acessibility hint for the download progress button. */
 "ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON_HINT" = "Просмотреть текущие загрузки";
 /* Accessibility hint for video download list row cells. {video_name} is the name of video being downloaded. {percent_complete} is an already localized numeric percentage like "44%". */
-"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{one}" = "Идет загрузка {video_name}: завершено {percent_complete}.";
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{one}" = "Идет скачивание {video_name}, {percent_complete} завершено.";
 /* */
-"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{few}" = "Идет скачивание {video_name}. {percent_complete} завершено.";
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{few}" = "Идет скачивание {video_name}, {percent_complete} завершено.";
 /* */
-"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{many}" = "Идет скачивание {video_name}. {percent_complete} завершено.";
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{many}" = "Идет скачивание {video_name}, {percent_complete} завершено.";
 /* */
-"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{other}" = "Идет скачивание {video_name}. {percent_complete} завершено.";
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{other}" = "Идет скачивание {video_name}, {percent_complete} завершено.";
 /* Accessibility hint for number of downloadable videos */
 "ACCESSIBILITY_DOWNLOADABLE_VIDEOS##{one}" = "Загрузите {video_count} видео.";
 /* */
@@ -56,8 +54,6 @@
 "ACCESSIBILITY_HTML" = "HTML";
 /* Accessibility label for open on web button */
 "ACCESSIBILITY_OPEN_ON_WEB" = "Открыть в браузере Safari";
-/* Call to action for FIND A MOBILE-FRIENDLY COURSE */
-"ACCESSIBILITY_OPENS_MOBILE_FRIENDLY_COURSES"="Откройте подходящие курсы в браузере.";
 /* Accessibility label for Pause Button in the Video Player */
 "ACCESSIBILITY_PAUSE" = "Пауза";
 /* Accessibility label for Play Button in the Video Player */
@@ -65,7 +61,7 @@
 /* Accessibility lable for the avatar image */
 "ACCESSIBILITY_USER_AVATAR" = "Ваш аватар";
 /* Accessibility label for Problem Icon in the Courseware screens */
-"ACCESSIBILITY_PROBLEM" = "Проблема";
+"ACCESSIBILITY_PROBLEM" = "Задача";
 /* Accessibility label for Rewind Button in the Video Player */
 "ACCESSIBILITY_REWIND" = "Перемотать";
 /* Call to action for Rewind Button in the Video Player */
@@ -117,17 +113,19 @@
 /* Get certificate button text. */
 "CERTIFICATES.GET_CERTIFICATE"="Показать сертификат";
 /* Text to share on FB & Twitter when sharing a course cert */
-"CERTIFICATES.SHARE_TEXT"="Я только что получил сертификат на edX! Посмотрите:";
+"CERTIFICATES.SHARE_TEXT"="Я только что получил сертификат! Посмотрите:";
+/* Title bar when viewing an actual certificate */
+"CERTIFICATES.VIEW_CERT_TITLE"="Сертификат";
 /* Title of course announcements section */
 "COURSE_ANNOUNCEMENTS"="Объявления";
 /* Title of course handouts section */
-"COURSE_HANDOUTS"="Раздаточный материал";
+"COURSE_HANDOUTS"="Дополнительные материалы";
 /* Button text for cancelling any action */
 "CANCEL"="Отмена";
 /* Alert explaining charges will apply since the "Wi-fi only" switch was turned off */
-"CELLULAR_DOWNLOAD_ENABLED_MESSAGE"="Разрешить устройству скачивать видео через мобильное соединение, когда Wi-Fi недоступен. Может взиматься дополнительная плата.";
+"CELLULAR_DOWNLOAD_ENABLED_MESSAGE"="Разрешить скачивать видео через мобильное соединение, когда Wi-Fi недоступен.";
 /* Title of alert explaining charges will apply since the "Wi-fi only" switch was turned off */
-"CELLULAR_DOWNLOAD_ENABLED_TITLE"="Разрешить скачивание через мобильное соединение";
+"CELLULAR_DOWNLOAD_ENABLED_TITLE"="Разрешить скачивание через 3G";
 /* Error message shown when there is a problem loading a video */
 "CHECK_CONNECTION"="Проблемы при загрузке видео.\nПроверьте Ваше интернет-соединение.";
 /* Generic action button label when the user chooses a thing */
@@ -141,7 +139,6 @@
 /* Title of alert when confirming deletion of a video */
 "CONFIRM_DELETE_TITLE"="Подтвердите удаление";
 /* Text of alert when confirming video deletion */
-/* Text of alert when confirming video deletion */
 "CONFIRM_DELETE_MESSAGE##{one}"="Вы уверены, что хотите удалить это видео?";
 /* */
 "CONFIRM_DELETE_MESSAGE##{few}"="Вы уверены, что хотите удалить эти видео?";
@@ -154,10 +151,9 @@
 /* Alert dialog button text */
 "CLOSE"="Закрыть";
 /* Discussion response comment - {count} is a number of comments */
-/* Discussion response comment - {count} is a number of comments */
 "COMMENT##{one}"="{count} комментарий";
 /* */
-"COMMENT##{few}"="{count} комментариев";
+"COMMENT##{few}"="{count} комментария";
 /* */
 "COMMENT##{many}"="{count} комментариев";
 /* */
@@ -169,25 +165,25 @@
 /* Discussion comment (Posts screen) - {count} is a number of comments */
 "COMMENTS_TO_RESPONSE##{one}"="{count} комментарий";
 /* */
-"COMMENTS_TO_RESPONSE##{few}"="{count} Комментариев";
+"COMMENTS_TO_RESPONSE##{few}"="{count} комментария";
 /* */
-"COMMENTS_TO_RESPONSE##{many}"="{count} Комментариев";
+"COMMENTS_TO_RESPONSE##{many}"="{count} комментариев";
 /* */
-"COMMENTS_TO_RESPONSE##{other}"="{count} Комментариев";
+"COMMENTS_TO_RESPONSE##{other}"="{count} комментариев";
 /* Label for posts pinned by Community TA(s)" */
-"COMMUNITY_TA"="Сообщество ТА";
+"COMMUNITY_TA"="Сообщество модераторов";
 /* Label indicating the amount of time a course will take */
 "COURSE_DETAIL.EFFORT"="Попыток:";
 /* Label indicating when a course ends. */
 "COURSE_DETAIL.END_DATE"="Дата завершения:";
-/* Label above the course's full description. */
-"COURSE_DETAIL.DESCRIPTION_HEADER"="О курсе";
 /* Button title allowing user to enroll in a course */
-"COURSE_DETAIL.ENROLL_NOW" = "Зарегистрироваться сейчас";
+"COURSE_DETAIL.ENROLL_NOW" = "Зарегистрироваться";
+/* Button title allowing user to view a course from the course's catalog detail page */
+"COURSE_DETAIL.VIEW_COURSE" = "Изучить курс";
 /* Back bar button title of course */
 "COURSE"="Курс";
 /* Title of tab showing course content */
-"COURSEWARE_TAB_TITLE"="Программа обучения";
+"COURSEWARE_TAB_TITLE"="Материалы курса";
 /* Message shown when there is no course content */
 "COURSEWARE_UNAVAILABLE"="В данный момент материалы курса не доступны.";
 /* Message shown when attempting to display content not available on the app */
@@ -197,7 +193,7 @@
 /* Text describing the Announcements section within the course dashboard */
 "COURSE_DASHBOARD_ANNOUNCEMENTS_DETAIL"="Будьте в курсе последних новостей";
 /* Title text for the Courseware section of the course dashboard */
-"COURSE_DASHBOARD_COURSEWARE"="Программа обучения";
+"COURSE_DASHBOARD_COURSEWARE"="Материалы курса";
 /* Text describing the Courseware section within the course dashboard */
 "COURSE_DASHBOARD_COURSE_DETAIL"="Доступ к видео и заданиям";
 /* Title text for the Discussions section of the course dashboard */
@@ -205,7 +201,7 @@
 /* Text describing the Discussions section within the course dashboard */
 "COURSE_DASHBOARD_DISCUSSION_DETAIL"="Присоединиться к обсуждению";
 /* Title text for the Handouts section of the course dashboard  */
-"COURSE_DASHBOARD_HANDOUTS"="Раздаточный материал";
+"COURSE_DASHBOARD_HANDOUTS"="Дополнительные материалы";
 /* Text describing the Handouts section within the course dashboard */
 "COURSE_DASHBOARD_HANDOUTS_DETAIL"="Найти важную информацию о курсе";
 /* Label indicated that a course has ended */
@@ -226,8 +222,6 @@
 "COURSE_WILL_START_AT"="Этот курс пока не начался. Возвращайтесь {date} для просмотра Ваших видео.";
 /* Create a new post button title used in discussions' posts screen */
 "CREATE_A_NEW_POST"="Создать новую запись";
-/* Support message email title */
-"CUSTOMER_FEEDBACK" = "Отзывы клиентов";
 /* Button text to initiate or confirm deletion */
 "DELETE"="Удалить";
 /* Discussion used in the segmented control Creating a new post */
@@ -265,7 +259,7 @@
 /* */
 "DOWNLOADED_MANY_VIDEOS##{other}" = "Скачать {video_count} видео";
 /* Label indicating that a video or videos are downloading */
-"DOWNLOADING" = "Идет скачивание";
+"DOWNLOADING" = "Идёт скачивание";
 /* Title of video downloads screen */
 "DOWNLOADS"="Загрузки";
 /* Overlay message after user chooses to download a video */
@@ -275,11 +269,17 @@
 /* Alert message shown when user tries to send an email, but email isn't setup */
 "EMAIL_ACCOUNT_NOT_SET_UP_MESSAGE"="Похоже, что у Вас не установлен почтовый клиент.";
 /* Alert dialog title shown when user tries to send an email, but email isn't setup */
-"EMAIL_ACCOUNT_NOT_SET_UP_TITLE"="Не удается отправить сообщение по электронной почте";
+"EMAIL_ACCOUNT_NOT_SET_UP_TITLE"="Не удаётся отправить e-mail сообщение";
 /* Placeholder text for email address entry field */
 "EMAIL_ADDRESS_PROMPT"="E-mail адрес";
 /* Text displayed when no results are found in the search */
-"EMPTY_RESULTSET" = "Нет результатов для \"{query_string}\". Попробуйте ввести другой запрос или выбрать, в какой категории обсуждений следует искать.";
+"EMPTY_RESULTSET" = "Нет результатов для \"{query_string}\". Попробуйте ввести другой запрос или выбрать категорию обсуждений.";
+/* Prompt shown to users on the course list encouraging them to find new courses */
+"ENROLLMENT_LIST.FIND_COURSES_PROMPT" = "Хотите бросить себе вызов?";
+/* Button title opening course catalog */
+"ENROLLMENT_LIST.FIND_COURSES" = "Найдите подходящие онлайн-курсы";
+/* Button title showing screen providing information about why a course may not be visible */
+"ENROLLMENT_LIST.LOOKING_FOR_COURSE" = "Не можете найти подходящий курс?";
 /* Prompt indicating user needs to enter an email address */
 "ENTER_EMAIL"="Введите имя пользователя или адрес электронной почты и повторите попытку.";
 /* Prompt indicating user needs to enter a password */
@@ -295,13 +295,13 @@
 /* Title of find courses screen */
 "FIND_COURSES"="Найти курсы";
 /* Overlay message shown when enrolling in a course fails because the user is already in the course */
-"FIND_COURSES_ALREADY_ENROLLED_MESSAGE"="Вы уже подписались на этот курс";
+"FIND_COURSES_ALREADY_ENROLLED_MESSAGE"="Вы уже зарегистрировались на этот курс";
 /* Overlay message shown when enrolling in a course fails */
 "FIND_COURSES_ENROLLMENT_ERROR_DESCRIPTION"="Возникла ошибка при попытке подписки на курс";
 /* Title of overlay message shown when enrolling in a course fails */
 "FIND_COURSES_ENROLLMENT_ERROR_TITLE"="Ошибка подписки";
 /* Title of overlay message shown when enrolling in a course succeeds */
-"FIND_COURSES_ENROLLMENT_SUCCESSFUL_MESSAGE"="Вы подписались на этот курс";
+"FIND_COURSES_ENROLLMENT_SUCCESSFUL_MESSAGE"="Вы зарегистрировались на этот курс";
 /* Title of overlay message shown when enrolling in a course succeeds */
 "FIND_COURSES_OFFLINE_MESSAGE"="Вы в режиме оффлайн.\nЧтобы найти курсы, подключитесь к Интернету.";
 /* Title of overlay message shown when sign in fails */
@@ -321,7 +321,7 @@
 /* Warning shown to indicate that the user is in a section of graded content. */
 "GRADED_CONTENT_WARNING" = "Мы рекомендуем завершить оцениваемые разделы, подобные этому в Вашем браузере, пока они полностью не будут поддерживаться на мобильных устройствах.";
 /* Message shown when there are no handouts for a course */
-"HANDOUTS_UNAVAILABLE"="На данный момент на этом курсе нет материалов.";
+"HANDOUTS_UNAVAILABLE"="В этом курсе нет дополнительных материалов.";
 /* Overlay error shown when logging in with an invalid email address */
 "INVALID_EMAIL_MESSAGE"="Проверьте правильность написания адреса электронной почты и повторите попытку.";
 /* Overlay error shown when logging in with an invalid username or password */
@@ -329,19 +329,19 @@
 /* Alert dialog text asking whether it's okay to download large videos */
 "LARGE_DOWNLOAD_MESSAGE"="Размер выбранных Вами видео превышает 1 Гб.\nВы уверены, что хотите продолжить скачивание?";
 /* Alert dialog title when asking whether it's okay to download large videos */
-"LARGE_DOWNLOAD_TITLE"="Крупная загрузка";
+"LARGE_DOWNLOAD_TITLE"="Длительная загрузка";
 /* Title for Course Item that was last accessed */
 "LAST_ACCESSED" = "Последнее посещение";
 /* Button title to begin login */
 "LOGIN_SIGN_IN_TO_PLATFORM"="Войти в {platform_name}";
 /* Prompt leading user to create account screen */
-"LOGIN_SPLASH_SIGN_UP"="Войти в систему и начать обучение";
+"LOGIN_SPLASH_SIGN_UP"="Зарегистрироваться";
 /* Prompt leading user to sign in screen */
 "LOGIN_SPLASH_SIGN_IN"="Уже есть аккаунт? Войти";
 /* Button title to log out the current user */
 "LOGOUT"="Выйти";
 /* Option to sort discussion post list by most activity */
-"MOST_ACTIVITY"="Наибольшая Активность";
+"MOST_ACTIVITY"="Наибольшая активность";
 /* Option to sort discussion post list by most votes */
 "MOST_VOTES"="Популярные";
 /* Screen title showing a user's courses */
@@ -350,6 +350,8 @@
 "MY_SETTINGS"="Мои настройки";
 /* Screen title showing a user's downloaded videos */
 "MY_VIDEOS" = "Мои видео";
+/* Marked as answer for endorsed responses */
+"MARKED_ANSWER" = "Отметить как ответ";
 /* Overlay error shown when attempting an action without an internet connection */
 "NETWORK_NOT_AVAILABLE_MESSAGE"="Вы не подключены к интернету.";
 /* Alert dialog error shown when attempting an action without an internet connection */
@@ -383,7 +385,9 @@
 /* Label of switch that toggles push notification support */
 "NOTIFICATIONS_ENABLED" = "Разрешить уведомления";
 /* Label indicating user has on internet connection and is in offline mode */
-"OFFLINE_MODE" = "Режим офлайн";
+"OFFLINE_MODE" = "Офлайн режим";
+/* Overlay message explaining the details of offline mode. */
+"OFFLINE_MODE_DETAIL" = "В офлайн режиме вы можете просматривать видео, сохранённые ранее на мобильном устройстве.";
 /* Alert dialog okay button */
 "OK"="ОК";
 /* Button title allowing user to open current page in their web browser */
@@ -391,7 +395,7 @@
 /* Button title allowing user to open current page in their web browser */
 "OPEN_IN_BROWSER_TITLE"="Показывать только видео";
 /* Button label to bring up course finder */
-"OR_SIGN_IN_WITH"="Или Войти в аккаунт";
+"OR_SIGN_IN_WITH"="Или войти в аккаунт";
 /* Login screen password field placeholder text */
 "PASSWORD_PLACEHOLDER" = "Пароль";
 /* Alert dialog button shown when finishing a video to ask if user should continue by watching the next video */
@@ -449,9 +453,7 @@
 /* Text for take picture for user profile photo alert */
 "PROFILE.TAKE_PICTURE" = "Сделать фотографию";
 /* Descriptive text for why a limited profile is shown for users under 13, first line */
-"PROFILE.UNDER_13_LINE_1" = "Вы должны быть старше 13 лет, чтобы опубликовать полный профиль.";
-/* Descriptive text for why a limited profile is shown for users under 13, rest of message */
-"PROFILE.UNDER_13_LINE_2" = "Если вы старше 13 лет, убедитесь, что указали год вашего рождения в профиле.";
+"PROFILE.AGE_LIMIT" = "Вы должны быть старше 13 лет, чтобы опубликовать полный профиль.";
 /* Error retrieving a profile */
 "PROFILE.UNABLE_TO_GET" = "Не удалось загрузить профиль.";
 /* Error message when removing profile picture */
@@ -467,13 +469,13 @@
 /* Section title to display recently downloaded videos */
 "RECENT_VIDEOS"="Недавние видео";
 /* Create account agreement. Followed by agreement name like "End User License Agreement */
-"REDIRECT_TEXT" = "Входя в систему через это приложение, Вы даете согласие на ";
+"REDIRECT_TEXT" = "Входя в систему, вы даете согласие на ";
 /* Label before Sort and Filter buttons on Posts Screen ( The Colon(:) is part of the string) */
 "REFINE" = "Улучшить:";
 /* Button title when responses are closed for a thread */
 "RESPONSES_CLOSED"="К этой записи ответы недоступны";
 /* Title of registration agreement */
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="Условия предоставления услуг {platform_name} и Кодекс Чести";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="Условия предоставления услуг";
 /* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
 "REGISTRATION_AGREEMENT_MESSAGE"="Регистрируясь в {platform_name}, Вы даете согласие";
 /* Button text allowing user create an account */
@@ -484,7 +486,6 @@
 "REGISTRATION_FIELD_EMPTY_ERROR"="Введите {field_name}.";
 /* Error prompt shown during registration to indicate a field missing a selection. {field_name} is the name of a registration field like 'year of birth' */
 "REGISTRATION_FIELD_EMPTY_SELECT_ERROR"="Выберите {field_name}.";
-/* Error prompt shown during registration when a field entry is too long. {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
 /* Error prompt shown during registration when a field entry is too long. {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
 "REGISTRATION_FIELD_MAX_LENGTH_ERROR##{one}"="{field_name} не может содержать больше {count} символа.";
 /* */
@@ -502,13 +503,13 @@
 /* */
 "REGISTRATION_FIELD_MIN_LENGTH_ERROR##{other}"="В строке {field_name} должно содержаться не менее {count} символов.";
 /* Button text allowing user to hide visible optional registration fields */
-"REGISTRATION_HIDE_OPTIONAL_FIELDS"="Скрыть необязательные поля";
+"REGISTRATION_HIDE_OPTIONAL_FIELDS"="Необязательные поля";
 /* Button text allowing user to show hidden optional registration fields */
-"REGISTRATION_SHOW_OPTIONAL_FIELDS"="Показать необязательные поля";
+"REGISTRATION_SHOW_OPTIONAL_FIELDS"="Необязательные поля";
 /* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be followed by text "or sign up with an email". */
 "REGISTRATION_SIGN_UP_PROMPT"="Войти с помощью";
 /* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be preceded by text "Sign up with" */
-"REGISTRATION_SIGN_UP_ALTERNATE_PROMPT"="или зарегистрироваться с помощью E-mail адреса";
+"REGISTRATION_SIGN_UP_ALTERNATE_PROMPT"="или зарегистрироваться по e-mail";
 /* Registration screen title */
 "REGISTRATION_SIGN_UP_FOR_PLATFORM"="Войти в {platform_name}";
 /* Alert dialog title prompting user to enter an email address to reset their password */
@@ -523,7 +524,6 @@
 "RETRY" = "Повторить";
 /* Response back title in adding a new response */
 "ADD_A_RESPONSE"="Добавить ответ";
-/* Discussion response - {count} is a number of responses */
 /* Discussion response - {count} is a number of responses */
 "RESPONSE##{one}"="{count} ответ";
 /* */
@@ -557,7 +557,17 @@
 /* Label for posts pinned by Staff */
 "STAFF"="Сотрудники";
 /* Button allowing user to submit feedback about the app via email */
-"SUBMIT_FEEDBACK" = "Отправить отзыв";
+"SUBMIT_FEEDBACK.OPTION_TITLE" = "Отправить отзыв";
+/* Support message email title */
+"SUBMIT_FEEDBACK.MESSAGE_SUBJECT" = "Отзыв";
+/* Marker in feedback email meant to separate feedback from prepopulated device information */
+"SUBMIT_FEEDBACK.MARKER" = "---- Напишите ваш отзыв выше этой строки ----";
+/* Line in submit feedback email that supplies OS version information. For example, "iOS Version: 9.2" */
+"SUBMIT_FEEDBACK.OS_VERSION" = "iOS Version: {version}";
+/* Line in submit feedback email that supplies app version information. For example, "App Version: 2.2 (2.2.23)" */
+"SUBMIT_FEEDBACK.APP_VERSION" = "App Version: {version} ({build})";
+/* Line in submit feedback email that supplies device model information. For example, "Device Model: iPhone" */
+"SUBMIT_FEEDBACK.DEVICE_MODEL" = "Device Model: {model}";
 /* Text that indicates the visibility of the post */
 "POST_VISIBILITY"="Эта запись доступна для просмотра только {cohort}.";
 /* Text that indicates the visibility of the post to everyone */
@@ -601,19 +611,19 @@
 /* Floating overlay text shown after video download begins. {count} is a number of videos  */
 "VIDEOS_DOWNLOADING##{one}" = "Загружается {count} видео";
 /* */
-"VIDEOS_DOWNLOADING##{few}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADING##{few}" = "Загружается {count} видео";
 /* */
-"VIDEOS_DOWNLOADING##{many}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADING##{many}" = "Загружается {count} видео";
 /* */
-"VIDEOS_DOWNLOADING##{other}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADING##{other}" = "Загружается {count} видео";
 /* Message shown to indicate a number of already downloaded videos. {count} is a number of videos  */
 "VIDEOS_DOWNLOADED##{one}" = "Загружено {count} видео";
 /* */
-"VIDEOS_DOWNLOADED##{few}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADED##{few}" = "Загружено {count} видео";
 /* */
-"VIDEOS_DOWNLOADED##{many}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADED##{many}" = "Загружено {count} видео";
 /* */
-"VIDEOS_DOWNLOADED##{other}" = "Скачивается {count} видео";
+"VIDEOS_DOWNLOADED##{other}" = "Загружено {count} видео";
 /* Floating overlay text shown while videos download */
 "VIDEO_DOWNLOADS_IN_PROGRESS" = "Идет скачивание видео";
 /* Message shown instead of a video when attempting to watch a video that is only availabe on the web */
@@ -629,7 +639,7 @@
 /* Discussion vote - {count} is a number of votes */
 "VOTE##{one}"="{count} голос";
 /* */
-"VOTE##{few}"="{count} голосов";
+"VOTE##{few}"="{count} голоса";
 /* */
 "VOTE##{many}"="{count} голосов";
 /* */
