@@ -97,7 +97,8 @@ class CourseAnnouncementsViewController: UIViewController, UIWebViewDelegate {
     }
     
     private static func requestForCourse(course: OEXCourse) -> NetworkRequest<[OEXAnnouncement]> {
-        let announcementsURL = course.course_updates ?? "".oex_formatWithParameters([:])
+        let announcements = course.course_updates ?? "".oex_formatWithParameters([:])
+        let announcementsURL = announcements.stringByReplacingOccurrencesOfString("http:", withString: "https:") // + "/"
         return NetworkRequest(method: .GET,
             path: announcementsURL,
             requiresAuth: true,

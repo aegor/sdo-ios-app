@@ -169,7 +169,8 @@ public class NetworkManager : NSObject {
             // Now we encode the body
             switch request.body {
             case .EmptyBody:
-                return Success(mutableURLRequest)
+                let req = mutableURLRequest.mutableCopy() as! NSMutableURLRequest
+                return Success(req)
             case let .DataBody(data: data, contentType: contentType):
                 mutableURLRequest.HTTPBody = data
                 mutableURLRequest.setValue(contentType, forHTTPHeaderField: "Content-Type")

@@ -70,7 +70,9 @@ public class CourseHandoutsViewController: UIViewController, UIWebViewDelegate {
             return Stream<String>(error: OEXCoursewareAccessError(coursewareAccess: access, displayInfo: course.start_display_info))
         }
         else {
-            let request = CourseInfoAPI.getHandoutsForCourseWithID(courseID, overrideURL: course.course_handouts)
+            let handouts = course.course_handouts ?? "".oex_formatWithParameters([:])
+            let announcementsURL = handouts.stringByReplacingOccurrencesOfString("http:", withString: "https:")
+            let request = CourseInfoAPI.getHandoutsForCourseWithID(courseID, overrideURL: announcementsURL)
             let loader = self.environment.networkManager.streamForRequest(request, persistResponse: true)
             return loader
         }
