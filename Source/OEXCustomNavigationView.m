@@ -9,7 +9,7 @@
 
 #import "OEXCustomNavigationView.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #define MOVE_X 20.0
 

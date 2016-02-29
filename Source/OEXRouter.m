@@ -8,7 +8,7 @@
 
 #import <Masonry/Masonry.h>
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXRouter.h"
 

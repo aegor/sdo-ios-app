@@ -8,7 +8,7 @@
 
 #import "OEXGoogleAuthProvider.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXDateFormatting.h"
 #import "OEXExternalAuthProviderButton.h"

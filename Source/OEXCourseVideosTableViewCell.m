@@ -8,7 +8,7 @@
 
 #import "OEXCourseVideosTableViewCell.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 @implementation OEXCourseVideosTableViewCell
 

@@ -8,7 +8,7 @@
 
 #import "OEXLoginSplashViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXRouter.h"
 #import "OEXLoginViewController.h"

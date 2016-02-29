@@ -8,7 +8,7 @@
 
 #import "OEXUsingExternalAuthHeadingView.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSAttributedString+OEXFormatting.h"
 #import "OEXRegistrationStyles.h"

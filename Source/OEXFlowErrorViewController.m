@@ -8,7 +8,7 @@
 
 #import "OEXFlowErrorViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #define ERRORVIEW_X 0
 #define ERRORVIEW_Y -98

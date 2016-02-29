@@ -8,7 +8,7 @@
 
 #import "NSMutableDictionary+OEXSafeAccess.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "Logger+OEXObjC.h"
 
 @implementation NSMutableDictionary (OEXSafeAccess)

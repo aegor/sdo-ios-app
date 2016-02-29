@@ -10,7 +10,7 @@
 
 #import "OEXSwitchStyle.h"
 #import "UIColor+OEXHex.h"
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 static OEXStyles* sSharedStyles;
 

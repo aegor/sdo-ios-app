@@ -8,7 +8,7 @@
 
 #import "OEXDBManager.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "LastAccessed.h"
 #import "Logger+OEXObjC.h"

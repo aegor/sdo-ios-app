@@ -8,7 +8,7 @@
 
 #import "OEXCourseInfoViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSNotificationCenter+OEXSafeAccess.h"
 #import "NSURL+OEXPathExtensions.h"

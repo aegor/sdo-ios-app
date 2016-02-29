@@ -8,7 +8,7 @@
 
 #import "OEXFacebookAuthProvider.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXExternalAuthProviderButton.h"
 #import "OEXFBSocial.h"

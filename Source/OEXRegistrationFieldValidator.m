@@ -8,7 +8,7 @@
 
 #import "OEXRegistrationFieldValidator.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "NSString+OEXFormatting.h"
 
 @implementation OEXRegistrationFieldValidator

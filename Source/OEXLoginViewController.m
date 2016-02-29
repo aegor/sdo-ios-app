@@ -8,7 +8,7 @@
 
 #import "OEXLoginViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSString+OEXFormatting.h"
 #import "NSString+OEXValidation.h"

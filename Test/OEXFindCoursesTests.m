@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "OEXEnvironment.h"
 #import "OEXConfig.h"
 #import "OEXNetworkManager.h"

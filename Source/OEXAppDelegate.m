@@ -15,7 +15,7 @@
 #import <NewRelicAgent/NewRelic.h>
 #import <SEGAnalytics.h>
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "Logger+OEXObjC.h"
 
 #import "NSBundle+OEXConveniences.h"

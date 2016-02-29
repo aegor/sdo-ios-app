@@ -8,7 +8,7 @@
 
 #import "OEXCustomEditingView.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 @implementation OEXCustomEditingView
 

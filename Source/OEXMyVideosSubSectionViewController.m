@@ -8,7 +8,7 @@
 
 #import "OEXMyVideosSubSectionViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSArray+OEXSafeAccess.h"
 #import "NSString+OEXFormatting.h"

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015-2016 edX. All rights reserved.
 //
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

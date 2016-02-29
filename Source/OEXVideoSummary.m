@@ -8,7 +8,7 @@
 
 #import "OEXVideoSummary.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "OEXVideoEncoding.h"
 #import "OEXVideoPathEntry.h"
 #import "NSArray+OEXFunctional.h"

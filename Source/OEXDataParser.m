@@ -8,7 +8,7 @@
 
 #import "OEXDataParser.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSArray+OEXFunctional.h"
 #import "NSArray+OEXSafeAccess.h"

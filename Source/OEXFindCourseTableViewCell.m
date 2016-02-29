@@ -8,7 +8,7 @@
 
 #import "OEXFindCourseTableViewCell.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 @implementation OEXFindCourseTableViewCell
 

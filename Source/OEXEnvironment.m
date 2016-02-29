@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 edX. All rights reserved.
 //
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXEnvironment.h"
 

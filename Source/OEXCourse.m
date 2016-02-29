@@ -8,7 +8,7 @@
 
 #import "OEXCourse.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "NSDate+OEXComparisons.h"
 #import "NSObject+OEXReplaceNull.h"

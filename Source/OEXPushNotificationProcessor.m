@@ -8,7 +8,7 @@
 
 #import "OEXPushNotificationProcessor.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXAnalytics.h"
 #import "NSMutableDictionary+OEXSafeAccess.h"

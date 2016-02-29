@@ -10,7 +10,7 @@
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXCoursewareAccess.h"
 #import "OEXCourse.h"

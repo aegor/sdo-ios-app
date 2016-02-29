@@ -9,7 +9,7 @@
 #import "OEXFBSocial.h"
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "Logger+OEXObjC.h"
 
 #import "NSNotificationCenter+OEXSafeAccess.h"

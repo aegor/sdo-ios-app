@@ -8,7 +8,7 @@
 
 #import "OEXRegistrationFieldSelectController.h"
 #import "NSString+OEXFormatting.h"
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 @interface OEXRegistrationFieldSelectController ()
 @property(nonatomic, strong) OEXRegistrationFormField* field;

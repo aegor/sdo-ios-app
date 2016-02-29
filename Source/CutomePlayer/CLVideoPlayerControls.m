@@ -11,7 +11,7 @@
 @import CoreMedia;
 @import ObjectiveC.runtime;
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "Logger+OEXObjC.h"
 
 #import "NSMutableDictionary+OEXSafeAccess.h"

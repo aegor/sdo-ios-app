@@ -8,7 +8,7 @@
 
 #import "OEXFindCoursesViewController.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 
 #import "OEXConfig.h"
 #import "OEXCourseInfoViewController.h"

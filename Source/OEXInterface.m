@@ -8,7 +8,7 @@
 
 #import "OEXInterface.h"
 
-#import "edX-Swift.h"
+#import "SDO-Swift.h"
 #import "Logger+OEXObjC.h"
 
 #import "NSArray+OEXFunctional.h"
