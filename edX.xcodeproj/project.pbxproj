@@ -1184,7 +1184,7 @@
 		BE54F19B195F080E005D069F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		BE8163F51954244E00F9A2C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BE8163F8195447ED00F9A2C5 /* Splash_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_map.png; sourceTree = "<group>"; };
-		BECB7B0B1924C0C3009C77F1 /* СДО Кубани.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "СДО Кубани.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECB7B0B1924C0C3009C77F1 /* SDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECB7B0E1924C0C3009C77F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BECB7B101924C0C3009C77F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BECB7B121924C0C3009C77F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -2377,7 +2377,7 @@
 		BECB7B0C1924C0C3009C77F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BECB7B0B1924C0C3009C77F1 /* СДО Кубани.app */,
+				BECB7B0B1924C0C3009C77F1 /* SDO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2682,7 +2682,7 @@
 			);
 			name = edX;
 			productName = edXVideoLocker;
-			productReference = BECB7B0B1924C0C3009C77F1 /* СДО Кубани.app */;
+			productReference = BECB7B0B1924C0C3009C77F1 /* SDO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

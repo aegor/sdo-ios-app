@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "&#1057;&#1044;&#1054; &#1050;&#1091;&#1073;&#1072;&#1085;&#1080;.app"
+            BuildableName = "SDO.app"
             BlueprintName = "edX"
             ReferencedContainer = "container:edX.xcodeproj">
          </BuildableReference>
@@ -100,7 +100,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BECB7B0A1924C0C3009C77F1"
-            BuildableName = "&#1057;&#1044;&#1054; &#1050;&#1091;&#1073;&#1072;&#1085;&#1080;.app"
+            BuildableName = "SDO.app"
             BlueprintName = "edX"
             ReferencedContainer = "container:edX.xcodeproj">
          </BuildableReference>

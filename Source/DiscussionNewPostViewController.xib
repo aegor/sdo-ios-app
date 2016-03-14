@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DiscussionNewPostViewController" customModule="edX" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DiscussionNewPostViewController" customModule="SDO" customModuleProvider="target">
             <connections>
                 <outlet property="backgroundView" destination="oNE-F5-bG9" id="6Z6-kT-dsX"/>
                 <outlet property="bodyTextViewHeightConstraint" destination="WDa-XC-IRj" id="Nah-OE-bhe"/>
@@ -67,7 +67,7 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKk-aE-KJb" userLabel="Add Button" customClass="SpinnerButton" customModule="edX" customModuleProvider="target">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKk-aE-KJb" userLabel="Add Button" customClass="SpinnerButton" customModule="SDO" customModuleProvider="target">
                                     <rect key="frame" x="20" y="139" width="280" height="30"/>
                                     <animations/>
                                     <state key="normal" title="example">
