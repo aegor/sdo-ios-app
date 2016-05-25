@@ -27,7 +27,7 @@ class OEXRearTableViewController : UITableViewController {
     @IBOutlet var videosLabel: UILabel!
     @IBOutlet var findCoursesLabel: UILabel!
     @IBOutlet var settingsLabel: UILabel!
-    @IBOutlet var submitFeedbackLabel: UILabel!
+//    @IBOutlet var submitFeedbackLabel: UILabel!
     @IBOutlet var logoutButton: UIButton!
     
     @IBOutlet var userNameLabel: UILabel!
@@ -63,7 +63,7 @@ class OEXRearTableViewController : UITableViewController {
         videosLabel.text = Strings.myVideos.oex_uppercaseStringInCurrentLocale()
         findCoursesLabel.text = Strings.findCourses.oex_uppercaseStringInCurrentLocale()
         settingsLabel.text = Strings.mySettings.oex_uppercaseStringInCurrentLocale()
-        submitFeedbackLabel.text = Strings.SubmitFeedback.optionTitle.oex_uppercaseStringInCurrentLocale()
+ // EGOR       submitFeedbackLabel.text = Strings.SubmitFeedback.optionTitle.oex_uppercaseStringInCurrentLocale()
         logoutButton.setTitle(Strings.logout.oex_uppercaseStringInCurrentLocale(), forState: .Normal)
         
         setNaturalTextAlignment()
@@ -104,7 +104,7 @@ class OEXRearTableViewController : UITableViewController {
         videosLabel.textAlignment = .Natural
         findCoursesLabel.textAlignment = .Natural
         settingsLabel.textAlignment = .Natural
-        submitFeedbackLabel.textAlignment = .Natural
+// EGOR        submitFeedbackLabel.textAlignment = .Natural
         userNameLabel.textAlignment = .Natural
         userNameLabel.adjustsFontSizeToFitWidth = true
         userEmailLabel.textAlignment = .Natural
@@ -117,7 +117,7 @@ class OEXRearTableViewController : UITableViewController {
         videosLabel.accessibilityLabel = videosLabel.text
         findCoursesLabel.accessibilityLabel = findCoursesLabel.text
         settingsLabel.accessibilityLabel = settingsLabel.text
-        submitFeedbackLabel.accessibilityLabel = submitFeedbackLabel.text
+ // EGOR       submitFeedbackLabel.accessibilityLabel = submitFeedbackLabel.text
         logoutButton.accessibilityLabel = logoutButton.titleLabel!.text
         userProfilePicture.accessibilityLabel = Strings.accessibilityUserAvatar
     }

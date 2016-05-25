@@ -37,7 +37,7 @@ public struct CourseCatalogAPI {
             path : "api/courses/v1/courses/",
             query : [
                 Params.Mobile.rawValue: JSON(true),
-                Params.User.rawValue: JSON(userID),
+// EGOR                Params.User.rawValue: JSON(userID),
             ],
             requiresAuth : true,
             deserializer: .JSONResponse(coursesDeserializer)

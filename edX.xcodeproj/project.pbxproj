@@ -2697,7 +2697,7 @@
 				ORGANIZATIONNAME = "Sdo Kuban";
 				TargetAttributes = {
 					BECB7B0A1924C0C3009C77F1 = {
-						DevelopmentTeam = 29WLC4T52F;
+						DevelopmentTeam = F48KAKC5Y5;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -3388,10 +3388,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.edu-kuban";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.edu.kuban;
 				PRODUCT_MODULE_NAME = SDO;
 				PRODUCT_NAME = SDO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Profile;
@@ -3504,11 +3505,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.edu-kuban";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.edu.kuban;
 				PRODUCT_MODULE_NAME = SDO;
 				PRODUCT_NAME = SDO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3536,10 +3538,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.edu-kuban";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.edu.kuban;
 				PRODUCT_MODULE_NAME = SDO;
 				PRODUCT_NAME = SDO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Source/edX-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
