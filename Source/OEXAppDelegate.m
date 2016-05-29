@@ -180,6 +180,7 @@
     
 }
 
+
 - (void) logoutIfServerChanged {
     NSURL *lastUsedHostUrl = [self.environment.config lastUsedAPIHostURL];
     NSURL *hostUrl = [self.environment.config apiHostURL];
